@@ -1,17 +1,21 @@
 body {
   height: 100vh;
   background-color: #10202efc;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  font-family: ui-sans-serif,system-ui;
+
+  /* make img not selectable  */
   -moz-user-select: none;
--webkit-user-select: none;
-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 .one {
-  width: 90px;
-  text-align: center;
+  width: 70px;
+  text-align: justify;
   border: 1px dotted white;
 }
 
