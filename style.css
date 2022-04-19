@@ -6,17 +6,17 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  font-family: ui-sans-serif,system-ui;
+  font-family: ui-sans-serif, system-ui;
 
   /* make img not selectable  */
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
 }
-.one {
+.one,
+.two {
   width: 70px;
-  text-align: justify;
-  border: 1px dotted white;
+  text-align: center;
 }
 
 .folders {
