@@ -6,8 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  font-family: ui-sans-serif, system-ui;
-
+  font-family: 'Josefin Slab', serif;
   /* make img not selectable  */
   -moz-user-select: none;
   -webkit-user-select: none;

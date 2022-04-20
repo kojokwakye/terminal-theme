@@ -2,12 +2,15 @@ body {
   height: 100vh;
   background-color: #10202efc;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 a {
   color: white;
   text-decoration: none;
+}
+
+p {
+  line-height: 2em;
+  width: 50vw;
 }
