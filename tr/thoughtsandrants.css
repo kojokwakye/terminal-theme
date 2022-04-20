@@ -2,7 +2,9 @@ body {
   height: 100vh;
   background-color: #10202efc;
   color: white;
-  
+  overflow: hidden;
+  padding: 0 20px;
+  margin: 20px;
 }
 
 a {
@@ -13,4 +15,8 @@ a {
 p {
   line-height: 2em;
   width: 50vw;
+}
+
+.photo {
+  width: 150px;
 }
