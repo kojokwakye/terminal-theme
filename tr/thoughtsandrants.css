@@ -13,10 +13,16 @@ a {
 }
 
 p {
-  line-height: 2em;
-  width: 40vw;
+  line-height: 1.5em;
+  width: 400px;
 }
 
 .photo {
   width: 150px;
+}
+
+@media screen and (max-width: 320px) {
+  p {
+width: 320px;  }
+  
 }
