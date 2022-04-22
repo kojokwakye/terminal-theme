@@ -23,6 +23,6 @@ p {
 
 @media screen and (max-width: 320px) {
   p {
-width: 320px;  }
-  
+    width: 320px;
+  }
 }
