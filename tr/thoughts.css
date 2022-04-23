@@ -10,11 +10,16 @@ body {
   padding: 0 10px;
   margin: 10px;
   font-family: "Josefin Slab", serif;
+  font-size: 0.9rem;
 }
 
 a {
   color: white;
   text-decoration: none;
+}
+
+.top-bar {
+  width: 325px;
 }
 
 p {
@@ -28,6 +33,6 @@ p {
 
 @media only screen and (max-device-width: 480px) {
   body {
-    /* background-color: red; */
+    font-size: 1em;
   }
 }
