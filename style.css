@@ -16,8 +16,7 @@ body {
   -webkit-user-select: none;
   user-select: none;
 }
-.one,
-.two {
+.one {
   width: 70px;
   text-align: center;
 }
