@@ -10,7 +10,10 @@ body {
   padding: 0 10px;
   margin: 10px;
   font-family: "Josefin Slab", serif;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 a {
