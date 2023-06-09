@@ -1,1 +1,7 @@
-dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ < nord.dconf
+install this theme on a new pc
+
+export `terminal-theme.dconf` from repo to pc's home directory
+
+install with this code
+
+> dconf dump /org/gnome/terminal/legacy/profiles:/ > terminal-theme.dconf
