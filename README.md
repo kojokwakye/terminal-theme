@@ -1,4 +1,4 @@
-install this theme on a new pc
+install this theme on my new ubuntu pc
 
 export `terminal-theme.dconf` from repo to pc's home directory
 
