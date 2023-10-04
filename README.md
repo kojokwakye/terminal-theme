@@ -8,5 +8,6 @@ install with this code
 
 
 ## clean up file 
+Removes old revisions of snaps
 > `sudo bash clean-up.sh`
 
