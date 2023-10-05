@@ -1,21 +1,29 @@
 [/]
-default='a760735d-bdeb-4815-9f52-4c617f9ed089'
-list=['a760735d-bdeb-4815-9f52-4c617f9ed089']
+default='7e0057df-a439-47aa-8fca-a92e1697059d'
+list=['a760735d-bdeb-4815-9f52-4c617f9ed089', '7e0057df-a439-47aa-8fca-a92e1697059d']
+
+[:7e0057df-a439-47aa-8fca-a92e1697059d]
+audible-bell=false
+cursor-shape='underline'
+font='Mitra 14'
+use-system-font=false
+use-theme-colors=false
+visible-name='night-owl'
 
 [:a760735d-bdeb-4815-9f52-4c617f9ed089]
 audible-bell=false
-background-color='rgb(44,44,44)'
-background-transparency-percent=3
+background-color='rgb(0,22,38)'
+background-transparency-percent=10
 bold-color='rgb(8,33,26)'
 bold-color-same-as-fg=true
 bold-is-bright=false
-cursor-background-color='rgb(38,161,99)'
+cursor-background-color='rgb(0,22,38)'
 cursor-colors-set=true
-cursor-foreground-color='rgb(45,112,99)'
+cursor-foreground-color='rgb(92,170,252)'
 cursor-shape='underline'
 font='Ubuntu Mono 15'
 foreground-color='rgb(208,207,204)'
-highlight-background-color='rgb(38,160,104)'
+highlight-background-color='rgb(126,170,252)'
 highlight-colors-set=true
 palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(38,162,105)', 'rgb(162,115,76)', 'rgb(18,72,139)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,209,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
 scrollbar-policy='never'
@@ -25,6 +33,9 @@ use-theme-colors=false
 use-theme-transparency=false
 use-transparent-background=true
 visible-name='terminal-theme'
+
+[:a9abe822-64cc-4969-aee5-b9af6ec61458]
+visible-name='xxxx'
 
 [:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 audible-bell=false
