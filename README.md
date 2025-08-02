@@ -18,9 +18,15 @@ Removes old revisions of snaps
 ## reset foliate epub  
 `dconf reset -f /com/github/johnfactotum/Foliate/`
 
+## reset foliate library  
+`cd ~/.local/share/com.github.johnfactotum.Foliate`
+`ls -la`  
+
+## remove all JSON files (this will clear your library and reading progress)
+`rm -f *.json`
+
 ## disable the new notification badges 
 `gsettings set org.gnome.shell.extensions.dash-to-dock show-icons-emblems false`
-
 
 ## enable 'minimize on click'  
 `gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'`
