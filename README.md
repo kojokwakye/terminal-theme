@@ -5,8 +5,6 @@ export
 `night-owl.dconf` from repo to pc's home directory
 
 install with this code
-
-<<<<<<< HEAD
 > `dconf load /org/gnome/terminal/legacy/profiles:/ < terminal-theme.dconf`
 
 
@@ -14,11 +12,15 @@ install with this code
 Removes old revisions of snaps
 > `sudo bash clean-up.sh`
 
-=======
 > `dconf load /org/gnome/terminal/legacy/profiles:/ < terminal-theme.dconf`   
 > `dconf load /org/gnome/terminal/legacy/profiles:/ < night-owl.dconf`
->>>>>>> 69f7e2be5a7a1b7076469f7fb5c4e87887bebcf8
+
+## reset foliate epub  
+`dconf reset -f /com/github/johnfactotum/Foliate/`
+
+## disable the new notification badges 
+`gsettings set org.gnome.shell.extensions.dash-to-dock show-icons-emblems false`
 
 
-reset foliate epub 
-dconf reset -f /com/github/johnfactotum/Foliate/
+## enable 'minimize on click'  
+`gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'`
