@@ -18,3 +18,7 @@ Removes old revisions of snaps
 > `dconf load /org/gnome/terminal/legacy/profiles:/ < terminal-theme.dconf`   
 > `dconf load /org/gnome/terminal/legacy/profiles:/ < night-owl.dconf`
 >>>>>>> 69f7e2be5a7a1b7076469f7fb5c4e87887bebcf8
+
+
+reset foliate epub 
+dconf reset -f /com/github/johnfactotum/Foliate/
